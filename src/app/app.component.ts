@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bai5';
+  onRateChange(value) {
+    console.log(value);
+  }
 }
